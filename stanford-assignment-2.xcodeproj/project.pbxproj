@@ -12,6 +12,9 @@
 		000651C522C1DFD200E3F458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000651C322C1DFD200E3F458 /* Main.storyboard */; };
 		000651C722C1DFD300E3F458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000651C622C1DFD300E3F458 /* Assets.xcassets */; };
 		000651CA22C1DFD300E3F458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000651C822C1DFD300E3F458 /* LaunchScreen.storyboard */; };
+		000FBB7C22C48517004F830F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FBB7B22C48517004F830F /* Card.swift */; };
+		000FBB7E22C48819004F830F /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FBB7D22C48819004F830F /* Deck.swift */; };
+		000FBB8022C93BF3004F830F /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FBB7F22C93BF3004F830F /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		000651C622C1DFD300E3F458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000651C922C1DFD300E3F458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		000651CB22C1DFD300E3F458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000FBB7B22C48517004F830F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		000FBB7D22C48819004F830F /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		000FBB7F22C93BF3004F830F /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				000651C622C1DFD300E3F458 /* Assets.xcassets */,
 				000651C822C1DFD300E3F458 /* LaunchScreen.storyboard */,
 				000651CB22C1DFD300E3F458 /* Info.plist */,
+				000FBB7B22C48517004F830F /* Card.swift */,
+				000FBB7D22C48819004F830F /* Deck.swift */,
+				000FBB7F22C93BF3004F830F /* SetGame.swift */,
 			);
 			path = "stanford-assignment-2";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000FBB7E22C48819004F830F /* Deck.swift in Sources */,
 				000651C222C1DFD200E3F458 /* ViewController.swift in Sources */,
+				000FBB8022C93BF3004F830F /* SetGame.swift in Sources */,
+				000FBB7C22C48517004F830F /* Card.swift in Sources */,
 				000651C022C1DFD200E3F458 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
